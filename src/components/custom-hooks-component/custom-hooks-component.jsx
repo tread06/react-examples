@@ -4,7 +4,7 @@ import useLocalStoarage from '../../hooks/useLocalStorage';
 import './custom-hooks-component.css';
 
 const CustomHooksComponent = () => {
-  const [text, setText] = useLocalStoarage("name", '');
+  const [text, setText] = useLocalStoarage("customHookTextValue", '');
 
   return (
     <div role="main">
@@ -13,7 +13,7 @@ const CustomHooksComponent = () => {
         A simple custom react hook that leverages use effect and use state to read from and write to local storage when a value changes.
       </p>
       <div className="flex-container">
-        <label for="textInput">
+        <label htmlFor="textInput">
           Store text in local storage: 
         </label>
         <input

@@ -1,0 +1,8 @@
+.divider {
+  display: block;
+  box-sizing: border-box;
+  background-color: #282c34;
+  height: 1px;
+  width: 80%;  
+  margin: 20px auto;
+}
