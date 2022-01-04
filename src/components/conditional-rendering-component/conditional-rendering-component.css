@@ -1,0 +1,36 @@
+.conditional-rendering-option {
+  margin: auto;
+  background-color: #282c34;
+  color: white;
+  max-width: 200px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.conditional-rendering-sub-container{
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(133, 133, 133);
+  padding: 20px;
+}
+.conditional-rendering-container button {
+  flex: 1;  
+  margin: 5px 30px;
+  max-width: 200px;
+  font-size: 1em;
+  background-color: rgb(230, 230, 230);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #282c34;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+  transition: 0.3s;
+}
+.conditional-rendering-container button:hover {  
+  background-color: #282c34;
+  color: white;
+}

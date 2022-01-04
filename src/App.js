@@ -2,6 +2,7 @@ import './App.css';
 import CustomHooksComponent from './components/custom-hooks-component/custom-hooks-component';
 import ContextHookComponent from './components/context-hook-component/context-hook-component';
 import DividerComponent from './components/divider-component/divider-component';
+import ConditionalRenderingComponent from './components/conditional-rendering-component/conditional-rendering-component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <DividerComponent />
       <ContextHookComponent />
       <DividerComponent />
+      <ConditionalRenderingComponent />
     </div>
   );
 }
