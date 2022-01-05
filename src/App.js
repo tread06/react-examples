@@ -3,6 +3,7 @@ import CustomHooksComponent from './components/custom-hooks-component/custom-hoo
 import ContextHookComponent from './components/context-hook-component/context-hook-component';
 import DividerComponent from './components/divider-component/divider-component';
 import ConditionalRenderingComponent from './components/conditional-rendering-component/conditional-rendering-component';
+import RefsComponent from './components/refs-component/refs-component';
 
 function App() {
   return (
@@ -10,11 +11,16 @@ function App() {
       <header className="App-header">
         <h1>React Examples</h1>
       </header>
-      <CustomHooksComponent />
-      <DividerComponent />
-      <ContextHookComponent />
-      <DividerComponent />
-      <ConditionalRenderingComponent />
+      <main>
+        <CustomHooksComponent />
+        <DividerComponent />
+        <ContextHookComponent />
+        <DividerComponent />
+        <ConditionalRenderingComponent />
+        <DividerComponent />
+        <RefsComponent />
+        <DividerComponent />
+      </main>
     </div>
   );
 }

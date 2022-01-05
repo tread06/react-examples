@@ -7,7 +7,7 @@ const CustomHooksComponent = () => {
   const [text, setText] = useLocalStoarage("customHookTextValue", '');
 
   return (
-    <div role="main">
+    <div>
       <h1 className='component-title'>Custom Hook: useLocalStorage</h1>
       <p>
         A simple custom react hook that leverages use effect and use state to read from and write to local storage when a value changes.
