@@ -7,6 +7,7 @@ import RefsComponent from './components/refs-component/refs-component';
 import RenderPropsWrapperComponent from './components/render-props-wrapper-component/render-props-wrapper-component';
 import RenderPropsBar1Component from './components/render-props-bar1-component/render-props-bar1-component';
 import RenderPropsBar2Component from './components/render-props-bar2-component/render-props-bar2-component';
+import ReduxToDoComponent from './components/redux-to-do-component/redux-to-do-component';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
             return <RenderPropsBar2Component current={current} max={max} />;
           }}
         />
+        <DividerComponent />
+        <ReduxToDoComponent />
         <DividerComponent />
       </main>
     </div>

@@ -1,0 +1,4 @@
+export const ADD_ITEM = 'ADD_ITEM';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+export const RESOLVE_ITEM = 'SET_ITEM_RESOLVED';
+export const UNRESOLVE_ITEM = 'REMOVE_ITEM_UNRESOLVED';
