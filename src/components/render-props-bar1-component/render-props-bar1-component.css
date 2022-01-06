@@ -1,0 +1,13 @@
+.render-props-bar1-container h2 {
+  margin-bottom: 0px;
+}
+.progress-bar1-background {
+  background-color: #282c34;
+  height: 20px;
+  width: 100%;
+}
+.progress-bar1-foreground {
+  background-color: rgb(221, 136, 8);
+  height: 100%;
+  transition: 0.3s;
+}
