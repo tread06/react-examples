@@ -22,22 +22,21 @@ export default function reducer(state = [], action) {
     case actions.REMOVE_ITEM:
       return state.filter((item) => item.id !== action.payload.id);
 
-    case actions.RESOLVE_ITEM: //to do add logic
+    case actions.RESOLVE_ITEM:      
       return state.map((item) => {
-        if (item.id === action.payload.id) {
+        if (item.id === action.payload.id) {          
           return { ...item, resolved: true };
         }
         return { ...item };
       });
 
-    case actions.UNRESOLVE_ITEM: //to do add logic
+    case actions.UNRESOLVE_ITEM:
       return state.map((item) => {
         if (item.id === action.payload.id) {
           return { ...item, resolved: false };
         }
         return { ...item };
       });
-
     default:
       return state;
   }

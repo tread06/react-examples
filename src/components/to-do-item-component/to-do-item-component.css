@@ -1,0 +1,81 @@
+.to-do-item-container {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 80%;
+  background-color: #282c34;
+  margin-bottom: 2px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex-wrap: wrap;
+
+}
+.to-do-item-button-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.to-do-item-button-container button {
+  font-size: 1em;
+  background-color: rgb(230, 230, 230);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #282c34;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+  transition: 0.3s;
+  margin: 10px;
+  padding: 10px;
+}
+.to-do-item-button-toggle-resolved {
+  width: 120px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(23, 161, 85) !important;
+}
+.to-do-item-button-toggle-resolved:hover {
+  width: 120px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(39, 223, 122) !important;
+}
+.to-do-item-button-toggle-unresolved {  
+  width: 120px;
+  color: rgb(112, 112, 112);
+}
+.to-do-item-button-toggle-unresolved:hover {  
+  width: 120px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(121, 121, 121) !important;
+}
+.to-do-item-button-delete {
+  color: white;
+  background-color: rgb(163, 11, 11) !important;
+}
+.to-do-item-button-delete:hover {
+  color: white;
+  background-color: rgb(236, 45, 45) !important;
+}
+
+.to-do-item-id {  
+  color: white;  
+  font-size: 2em;
+  margin: 0px;
+  display: block;
+  height: 100%;
+  line-height: 100%;
+}
+.to-do-item-description { 
+  text-align: left;  
+  white-space: initial;
+  word-wrap: break-word;
+  flex: 2;   
+  min-width: 120px;
+  color: white;
+  font-size: 1.2em;
+  margin: 0px;
+  display: block;
+  height: 100%;
+  line-height: 100%;
+}
