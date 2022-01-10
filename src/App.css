@@ -1,7 +1,8 @@
+
 .App {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 .App-header {
   text-align: center;
@@ -38,6 +39,13 @@ input {
 }
 label {
   padding: 10px;
-  font-weight: bold;   
-  
+  font-weight: bold;
+}
+.links-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.link{
+  margin: 10px;
 }

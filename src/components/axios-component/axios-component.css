@@ -1,0 +1,14 @@
+.leaflet-container {
+  margin: auto;
+  width: 80vw;
+  height: 50vh;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #282c34;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+}
+.axios-popup{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;    
+}
